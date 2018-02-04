@@ -5,13 +5,11 @@ html
 		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover')
 
 		title jB X
-		link(rel='stylesheet', href='assets/fr7/framework7.css')
-		link(rel='stylesheet', href='assets/fonts/framework7-icons.css')
-		link(rel='stylesheet', href='assets/fonts/material-icons.css')
+		link(rel='stylesheet', href='//cdn.jsdelivr.net/npm/framework7@2.0.7/dist/css/framework7.css')
+		link(rel='stylesheet', href='//cdn.jsdelivr.net/npm/framework7-icons@0.8.9/css/framework7-icons.css')
+		link(rel='stylesheet', href='//cdn.jsdelivr.net/npm/material-icons-css@1.0.1/css/material-icons.css')
 
 	body
-		style(type='riot')
-		script(src='comps/car-swipe.tag', type='riot/tag')
 
 		#app
 			.page
@@ -21,7 +19,7 @@ html
 							.page(data-name='panel-1') 
 								.navbar
 									.navbar-inner
-										.title jB X
+										.title jB *
 								.page-content
 									.block Menu
 
@@ -29,32 +27,39 @@ html
 				.navbar
 					.navbar-inner
 						.left
-						.title.sliding jB X
+						.title.sliding jB *
 
 				// fixed footer		
 				.toolbar.toolbar-bottom-md
 					.toolbar-inner
-						.block jBx
+						.block jB *
 
 				// fixed main view .page-content 
 				.page
 					.view.view-main.ios-edges
-						.page(data-name='main') 
+						//this gets replaced on href link:
+						.page(data-name='home') 
 							p oh hi
+							a(href='/about/') About
 
 
 		script(type='text/javascript', src='//cdn.jsdelivr.net/npm/framework7@2.0.6/dist/js/framework7.js')
 
 		script.
+			var routes_ =  [
+				{ path: '/about/', url: 'about.html'}
+			]
 
 			var app = new Framework7({
 				root: '#app',
-				//routes: routes_,
+				routes: routes_,
 				on: {
 					init: function () {
 						console.log('app')
 					}
 				}
 			})
+			
+			var mainView = app.views.create('.view-main')// ??
 
 		style.

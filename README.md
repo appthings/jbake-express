@@ -42,7 +42,11 @@ Notes:
 Scope:
 1. Find 4 articles on web that you can link to. Write both in md and one in asciidoc, just 2 sentances and a link to the article. Should be related to design or static sites or such. Need 4 articles so we can have pagination/archive. Each article (2 sentances) should also include an external image. (for part 2). Host. Via CDN. HTTPS via wedge.
 So I can write my API. I'll point the 'jB X' domain to it. On critical path. Put in git at least daily.
-2. Write a website in Jade, Framework 7 / less in prototype folder. Similar to WP Express and such, use some USP ideas from above or better: yours, including pricing. Should have a 'landing/seo page/index/home', and a working accept payment|send invoice with that one per page jquery I like. Ads some of the USP here. Header on top should be black for the osx notch. Use some icons, I like the star logo. Maybe we should be jB star domain? OK, I bought the jbakestar.com. :-)
+2. Glance F7 tutorial, it is maybe 3 pages. tWrite a website in Jade, Framework 7 / less in prototype folder. Similar to WP Express and such, use some USP ideas from above or better: yours, including pricing. Should have a 'landing/seo page/index/home', and a working accept payment|send invoice with that one per page jquery I like. Ads some of the USP here. Header on top should be black for the osx notch. Use some icons, I like the star logo. Maybe we should be jB star domain? OK, I bought the jbakestar.com. :-)
+For any forms use gridforms in assets. You'll see why.
+To theme F7, use the local less file in assets, and not CDN. It's obvious. 
+Use tabs, not spaces in source please. We are not savages.
+I recommend you use prepros.io in prototype while you 'layout' the site.
 
 We split 50/50 monthly after direct costs and taxes. (Direct costs is hosting, or customer consulting internal rate / 50% of external rate)
 3. Migrate prorotype to templates(ex: cut up header/footer). Modify templates so jb generates blog.html. 
@@ -57,6 +61,7 @@ Phase 2.
 8. See how we do image size in .md and asciiD articles. So they show up nice when generated. One option is inlines html somehow. I'll work on this as well.
 9. Place an ad on blog page/post, when they see a single one.
 10. Link to 'jb Mobi' blog reader on menu, once my API works. 
+10.5. Talk to jb guy, get a 'Framework 7' theme posted (this git)
 11. Touch up jb Mobi
 12. Place jB mobi phonegap app in app stores (android, apple and windows 10 app store). 
 13. Move hosting to AWS. Should be same/cheaper than DO. We split. CDN - you pay, since you have it? AWS sometimes has 'free $200' cupon for start ups. On we work or F6S, gust.
