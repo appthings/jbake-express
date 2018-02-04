@@ -1,0 +1,60 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover')
+
+		title jB X
+		link(rel='stylesheet', href='assets/fr7/framework7.css')
+		link(rel='stylesheet', href='assets/fonts/framework7-icons.css')
+		link(rel='stylesheet', href='assets/fonts/material-icons.css')
+
+	body
+		style(type='riot')
+		script(src='comps/car-swipe.tag', type='riot/tag')
+
+		#app
+			.page
+				//right
+				.panel.panel-left.panel-cover
+						.view
+							.page(data-name='panel-1') 
+								.navbar
+									.navbar-inner
+										.title jB X
+								.page-content
+									.block Menu
+
+				//fixed header
+				.navbar
+					.navbar-inner
+						.left
+						.title.sliding jB X
+
+				// fixed footer		
+				.toolbar.toolbar-bottom-md
+					.toolbar-inner
+						.block jBx
+
+				// fixed main view .page-content 
+				.page
+					.view.view-main.ios-edges
+						.page(data-name='main') 
+							p oh hi
+
+
+		script(type='text/javascript', src='//cdn.jsdelivr.net/npm/framework7@2.0.6/dist/js/framework7.js')
+
+		script.
+
+			var app = new Framework7({
+				root: '#app',
+				//routes: routes_,
+				on: {
+					init: function () {
+						console.log('app')
+					}
+				}
+			})
+
+		style.

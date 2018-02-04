@@ -1,0 +1,25 @@
+html
+  head
+    meta(charset='utf-8')
+    title
+      if content.title
+        | #{content.title}
+      else
+        | jB X
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    meta(name='keywords', content='')
+    meta(name='generator', content='JBake')
+
+    block scripts
+
+    link(rel='stylesheet', href='#{content.rootpath}css/bootstrap.min.css')
+    link(rel='stylesheet', href='#{content.rootpath}assets/a.css')
+
+    link(rel='stylesheet', href='#{content.rootpath}css/asciidoctor.css')
+    link(rel='stylesheet', href='#{content.rootpath}css/base.css')
+
+
+    // Fav icon
+    link(rel='shortcut icon', href='#{content.rootpath}favicon.ico')
