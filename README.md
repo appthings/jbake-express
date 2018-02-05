@@ -13,7 +13,7 @@ USP:
 - You can use any editor, ex: VS Code.  
 - Fast FTS, with type ahead, included.
 - CDN included
-- On the flu image sizing service included.
+- On the fly image sizing service included. You only provide the retina version.
 - When you connect, content is cached in the browser. You can read on the subway. (dynamic html manifest)
 - HTTPS / Certs included
 - SEO / Google analytics
