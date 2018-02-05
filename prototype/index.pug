@@ -12,7 +12,7 @@ html
 	body
 
 		#app
-			.page
+				//.page
 				//right
 				.panel.panel-left.panel-cover
 						.view
@@ -23,24 +23,27 @@ html
 								.page-content
 									.block Menu
 
-				//fixed header
-				.navbar
-					.navbar-inner
-						.left
-						.title.sliding jB *
-
-				// fixed footer		
-				.toolbar.toolbar-bottom-md
-					.toolbar-inner
-						.block jB *
-
 				// fixed main view .page-content 
-				.page-content
-					.view.view-main.ios-edges
-						//this gets replaced on href link:
-						.page(data-name='home') 
-							p oh hi
-							a(href='/about/') About
+				.view
+					.page
+						//fixed header
+						.navbar
+							.navbar-inner
+								.left
+								.title.sliding jB *
+
+						// fixed footer		
+						.toolbar.toolbar-bottom-md
+							.toolbar-inner
+								.block jB *
+
+						.page-content
+							.view.view-main.ios-edges
+									//this gets replaced on href link:
+									.page(data-name='home') 
+										.block
+											p oh hi
+											a(href='/about/') About
 
 
 		script(type='text/javascript', src='//cdn.jsdelivr.net/npm/framework7@2.0.6/dist/js/framework7.js')
