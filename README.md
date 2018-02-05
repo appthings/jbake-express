@@ -59,7 +59,7 @@ Phase 2.
 6. Draft a spam email. Buy a mail list and use a mailing service (don't mail from your/our domains). I recomend you don't use html emails, but use text. Ex: $200,  we split. Every qtr buy a list ~ $800 / year.
 7. Check SEO using google web admin tools. Check google analytics. Check ad performance. Add site monitoring. 
 8. See how we do image size in .md and asciiD articles. So they show up nice when generated. One option is inlines html somehow. I'll work on this as well.
-9. Place an ad on blog page/post, when they see a single one.
+9. Place an ad on blog page/post, when they see a single one. Ad must be in iframe. Use a riot component maybe. Becuase it is in iframe: it's shit .js won't affect the website.
 10. Link to 'jb Mobi' blog reader on menu, once my API works. 
 10.5. Talk to jb guy, get a 'Framework 7' theme posted (this git)
 11. Touch up jb Mobi
