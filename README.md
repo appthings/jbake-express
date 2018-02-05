@@ -19,7 +19,7 @@ USP:
 - SEO / Google analytics
 - Admin via FTP or via Web Admin interfaces (that updates content files ) 
 - Monitoring, of course.
-- Custom app development at $35 / hr at weekly increments. Or fix bid ~ $800 per page/'slide' at 4 page increments. We do very nice forms and 'master/detial' work flow. API/Services only without DB back end is 10% discount. Interactive banner ads at $400 per set for standard sizes. (We don't do static ads, maybe at some crazy high rate) Development targeting Awwwards are 50% discount.
+- Custom app development at $50 / hr at weekly increments, ex: reqs or prototype. Or fix bid ~ $800 per page/'slide' at 4 page increments after reqs. We do very nice forms and 'master/detial' work flow. API/Services only without DB back end is 10% discount. Interactive banner ads at $400 per set for standard sizes. (We don't do static ads, maybe at some crazy high rate) Development targeting Awwwards are 50% discount.
 - Support popular ad systems - without interfearing with web app UX.  
 - Native Android, native IOS and native Windows app is $0. Support for ie11 is 15% extra.
 - Option to generate/view as PDF of select content/posts at 20% extra. 
@@ -40,14 +40,14 @@ Notes:
 
 
 Scope:
-1. Find 4 articles on web that you can link to. Write both in md and one in asciidoc, just 2 sentances and a link to the article. Should be related to design or static sites or such. Need 4 articles so we can have pagination/archive. Each article (2 sentances) should also include an external image. (for part 2). Host. Via CDN. HTTPS via wedge.
+1. Find 4 articles on web that you can link to. Write 2 in md and 2 in asciidoc, just 2 sentances and a link to the article. Should be related to design or static sites or such. Need 4 articles so we can have pagination/archive. Each article (2 sentances) should also include an external image. (for part 2). Host. Via CDN. HTTPS via wedge.
 So I can write my API. I'll point the 'jB X' domain to it. On critical path. Put in git at least daily.
 2. Glance F7 tutorial, it is maybe 3 pages. tWrite a website in Jade, Framework 7 / less in prototype folder. Similar to WP Express and such, use some USP ideas from above or better: yours, including pricing. Should have a 'landing/seo page/index/home', and a working accept payment|send invoice with that one per page jquery I like. Ads some of the USP here. Header on top should be black for the osx notch. Use some icons, I like the star logo. Maybe we should be jB star domain? OK, I bought the jbakestar.com. :-)
 For any forms use gridforms in assets. You'll see why.
 To theme F7, use the local less file in assets, and not CDN. It's obvious. 
 Use tabs, not spaces in source please. We are not savages.
 I recommend you use prepros.io in prototype while you 'layout' the site.
-
+(see  shoping cart note)
 We split 50/50 monthly after direct costs and taxes. (Direct costs is hosting, or customer consulting internal rate / 50% of external rate)
 3. Migrate prorotype to templates(ex: cut up header/footer). Modify templates so jb generates blog.html. 
 3.5 Delete everything in assets folder. In assets, create an assets folder (nested) so it looks nice when generated. ex: /assets/assets/images ends up in /public/assets/images. Any libs that are on jdeliver, use them from there, no need to mess. Copy our assets that we can't get from other people's CDN to /asets. 
@@ -76,9 +76,18 @@ Phase 3
 - AMP version  of blogs, light!!!!
 - Integrate FTS/type ahead into site like jbMobie via a search field once ready.
 - open a bank account. I'll tell you banker to use.
-- get a lawyer. A major law firm. THey do free for start up first year. To create Dellware corp with LOTS of shares. So we can give advisors 20K shares and not impact. We can ask around. Our mission is: we are not inovative, we just coppied a working model and we can execute on it.
+- get a lawyer. A major law firm. THey do free for start up first year. To create Dellware corp with LOTS of shares. So we can give advisors 20K shares and not impact. We can ask around. 
+- pick company name. I use http://nameboy.com I'm fine w/ varation of red cap . 
+Our mission is: we are not inovative, we just coppied a working model and we can execute on it. We plan to raise just over $20M. (data shows > 20M and company makes it. ) In 3 rouunds, last one is $17M, second one is $3M. first one is $250K. In first round we will spend $5K per month on google ads and spam for 3 years: till our second round. Following round, same, we just spend more on ads and spam.
 
 I'll also work on the admin page that writes the content files. Admin password will be hard coded in a file.
 
 
+
+Note: - pick shoping cart, ex:
+http://docs.snipcart.com/getting-started/installation
+
+http://simplecartjs.org/features
+
+If they offer we web site, that eliminates them. We just want a vendor to use that has a shoping cart.
 
